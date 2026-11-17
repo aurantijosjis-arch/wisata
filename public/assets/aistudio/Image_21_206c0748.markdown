@@ -1,0 +1,212 @@
+---
+name: Lereng Asri
+colors:
+  surface: '#effdf0'
+  surface-dim: '#d0ded1'
+  surface-bright: '#effdf0'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#e9f7ea'
+  surface-container: '#e3f2e5'
+  surface-container-high: '#deecdf'
+  surface-container-highest: '#d8e6da'
+  on-surface: '#121e17'
+  on-surface-variant: '#414944'
+  inverse-surface: '#27332b'
+  inverse-on-surface: '#e6f4e8'
+  outline: '#717973'
+  outline-variant: '#c0c8c2'
+  surface-tint: '#3b6752'
+  primary: '#023423'
+  on-primary: '#ffffff'
+  primary-container: '#1e4b38'
+  on-primary-container: '#8bbaa2'
+  inverse-primary: '#a1d1b8'
+  secondary: '#1a6d0e'
+  on-secondary: '#ffffff'
+  secondary-container: '#a1f889'
+  on-secondary-container: '#227415'
+  tertiary: '#4d2000'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#6f3100'
+  on-tertiary-container: '#ff9551'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#bdedd3'
+  primary-fixed-dim: '#a1d1b8'
+  on-primary-fixed: '#002114'
+  on-primary-fixed-variant: '#224f3c'
+  secondary-fixed: '#a1f889'
+  secondary-fixed-dim: '#86db70'
+  on-secondary-fixed: '#012200'
+  on-secondary-fixed-variant: '#055300'
+  tertiary-fixed: '#ffdbc9'
+  tertiary-fixed-dim: '#ffb68c'
+  on-tertiary-fixed: '#321200'
+  on-tertiary-fixed-variant: '#753400'
+  background: '#effdf0'
+  on-background: '#121e17'
+  surface-variant: '#d8e6da'
+typography:
+  display-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 40px
+    fontWeight: '800'
+    lineHeight: 48px
+  display-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 30px
+    fontWeight: '800'
+    lineHeight: 38px
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '700'
+    lineHeight: 32px
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 22px
+    fontWeight: '700'
+    lineHeight: 28px
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 20px
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 18px
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-tablet: 1.5rem
+  gutter-desktop: 2rem
+  margin: 1rem
+  margin-tablet: 2rem
+  margin-desktop: 4rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+The design system establishes a warm, grounded, and deeply human eco-tourism presence for a rural mountain village. The experience must evoke the feeling of stepping onto misty highland soil: genuine hospitality, clean mountain air, and rich agrarian tradition.
+
+Key brand pillars:
+- **Welcoming & Accessible:** Clear for multigenerational tourists (families, elders, independent backpackers) navigating on low-to-mid-range mobile devices under bright sunlight.
+- **Organic Earthiness:** Rich foliage tones paired with warm sun-baked soil and cream backdrops. Avoid sterile, hyper-corporate minimalism or harsh stark whites.
+- **Physical Warmth:** Soft tactile radii, pill badges mimicking hand-pressed botanical labels, and clear actionable touch surfaces that instill trust and immediacy.
+
+The overall design style balances modern mobile-first utility with soft botanical tactility, prioritizing readability, high visual contrast, and effortless physical touch ergonomics.
+
+## Colors
+The palette derives directly from lush highland terrace farms, sunlit canopies, and volcanic soil:
+
+- **Primary (`#1E4B38`):** Deep Forest Emerald. Anchor color for headers, dominant surfaces, main interactive boundaries, and institutional trust.
+- **Secondary (`#4E9F3D`):** Fresh Leaf Green. Used for active badges, positive environmental indicators, progress states, and secondary actions.
+- **Tertiary (`#D97736`):** Warm Terracotta Amber. Used for accent tags, price callouts, cultural experience highlights, and booking nudges.
+- **Neutral Dark (`#1C2820`):** Dark Forest Slate. High-contrast, deeply readable copy tone ensuring WCAG AAA legibility against cream surfaces.
+- **Neutral Light Canvas (`#F9F8F3`):** Soft Mountain Ivory/Cream base preventing screen glare outdoors. Pure white (`#FFFFFF`) is reserved for card interiors.
+- **Utility Accent (`#25D366`):** Authentic WhatsApp Emerald. Strictly allocated to immediate chat reservations, guide coordination, and instant contact CTAs.
+
+## Typography
+Plus Jakarta Sans is specified across all levels for its welcoming geometric structure, open counters, and high legibility at micro sizes on outdoor handheld displays.
+
+Implementation guidance:
+- Display and Headline tiers feature tighter tracking (-0.02em) with heavy weights (700-800) to maintain authority and warm presence.
+- Body text uses generous line heights (1.5x minimum) and a minimum base size of 16px on mobile viewports to guarantee legibility for older visitors and casual travelers.
+- Labels and interactive elements enforce semi-bold (600) weights to ensure effortless scanning across tour itineraries, room pricing, and facility listings.
+
+## Layout & Spacing
+A mobile-first fluid layout governs the interface, transitioning into structured container grids for wider screens.
+
+- **Mobile (<768px):** Single-column fluid stack with strict 16px (`1rem`) outer canvas margins. Interactive items span edge-to-edge within safe margins. Gaps between related tour modules adhere to `space-md` (16px), while major narrative sections leverage `space-xl` (40px).
+- **Tablet (768px–1024px):** 6-column fluid grid with 24px (`1.5rem`) margins and gutters. Cards arrange into 2-column paired grids.
+- **Desktop (>1024px):** 12-column layout maxing out at 1200px container width with 64px (`4rem`) outer margins. Editorial side-by-side splits showcase village photography alongside practical itinerary schedules.
+- **Rhythm & Touch Areas:** All clickable surfaces strictly respect a minimum 48px tap clearance on all mobile viewports to accommodate thumb interactions on the move.
+
+## Elevation & Depth
+Depth relies on soft, atmospheric light rather than synthetic dropped shadows:
+
+- **Surface Tiers:** Baseline canvas uses `#F9F8F3`. Content modules and cards elevate via clean `#FFFFFF` containers bounded by an ultra-soft organic border (`rgba(30, 75, 56, 0.08)`).
+- **Ambient Highland Shadows:** Floating elements (such as sticky bottom booking bars or modal sheets) cast a diffused, warm-tinted shadow: `0 8px 24px -4px rgba(28, 40, 32, 0.08), 0 2px 6px -1px rgba(28, 40, 32, 0.04)`.
+- **Active & Pressed States:** Elements slightly de-elevate on touch with reduced spread to provide an organic, squishy, physical response.
+
+## Shapes
+A roundedness tier of 2 provides approachable, organic corners that complement the rural nature theme without feeling toy-like.
+
+- Standard interactive controls, inputs, and list modules carry `rounded` (0.5rem / 8px).
+- Content cards, photography containers, and detail banners carry `rounded-lg` (1rem / 16px).
+- Modal sheets, floating summary bottom drawers, and featured eco-lodge hero panels utilize `rounded-xl` (1.5rem / 24px).
+- Badges, status chips, and WhatsApp quick-action triggers employ fully rounded pill geometry (`rounded-full` / 9999px) to convey softness and friendliness.
+
+## Components
+
+### Buttons
+- **Primary Action (Bookings / Explore):** Solid `#1E4B38` with `#FFFFFF` text. Minimum height of 48px, horizontal padding `space-lg`, radius `0.5rem`. Subtle active depression feedback.
+- **WhatsApp Direct CTA:** Solid `#25D366` background with pure white text, featuring an inline brand icon. Sticky to the mobile viewport base or full-width across package inspection screens.
+- **Secondary Action:** Outlined in 1.5px solid `#1E4B38`, filled with transparent or `#F9F8F3`, text `#1E4B38`.
+- **Tertiary Accent CTA:** Solid `#D97736` with `#FFFFFF` text for limited homestay slots or seasonal harvest festival tickets.
+
+### Cards & Packaging Containers
+- Card bodies sit on `#FFFFFF` surfaces with a 1px border of `rgba(30, 75, 56, 0.08)` and `rounded-lg` (16px) corners.
+- Images inside cards are masked with matching upper border radii and bleed to the container edges.
+- Card footers feature distinct meta groupings: price tags rendered in bold `#D97736`, distance/duration tags, and quick-action buttons.
+
+### Chips & Badges
+- **Eco Badges:** Pill-shaped (`rounded-full`), padded `0.25rem 0.75rem`, light leaf background (`rgba(78, 159, 61, 0.12)`), text `#2E6F40`, font style `label-sm`.
+- **Harvest / Seasonal Tags:** Terracotta background (`rgba(217, 119, 54, 0.12)`), text `#D97736`.
+- **Filter Chips:** Toggable chips in `#F9F8F3` with 1px border of `#1E4B38`, switching to solid `#1E4B38` with white text when selected.
+
+### Input Fields & Selectors
+- Background `#FFFFFF` with 1.5px border of `rgba(28, 40, 32, 0.2)`. Focus state shifts border to `#1E4B38` with a 3px soft outer ring of `rgba(30, 75, 56, 0.15)`.
+- Minimum field height of 48px with generous internal padding (`space-md`). Placeholder text styled in subdued Slate (`rgba(28, 40, 32, 0.5)`).
+
+### Lists & Information Modules
+- Homestay amenity lists, activity itineraries, and village schedules use separated list items with hairline dividers (`rgba(30, 75, 56, 0.06)`).
+- Leading icons enclosed in 32px circular leaf-green tinted badges (`rgba(78, 159, 61, 0.12)`).
+
+### Checkboxes & Radios
+- Size 24x24px to guarantee effortless tactile selection.
+- Border 2px solid `#1E4B38`. Active state fills `#1E4B38` with crisp white check/dot markers.
